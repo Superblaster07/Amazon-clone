@@ -1,0 +1,129 @@
+/* #h1 {
+    width: 100px;
+    height: 100vh;
+    background-color: rgba(0, 255, 255, 0.85);
+    font-size: larger;
+    text-align: left;
+    text-transform: capitalize;
+    position: fixed;
+    display: inline-block;
+    left: 40px;
+}
+
+#h2 {
+    position: sticky;
+    height: 70px;
+    background-color: rgba(255, 105, 180, .8);
+    width: 100%;
+    padding-left: 55px;
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    top: 0px;
+}
+#h3 {
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    top: 0px;
+    margin-left: 200px;
+}
+
+
+
+#p1 {
+    position: static;
+    padding-top: 150px;
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+p {
+    position: static;
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 50px;
+    font-size: 30px;
+} */
+
+/* * {
+    text-align: center;
+}
+
+#hi1,#hi2,#hi3,#hi4, #hi5 {
+
+    display: inline-block;
+    height: 100px;
+    width: 50px;
+    border-style: outset;
+    border-color: black;
+}
+#main {
+    border-style: outset;
+    width: 800px;
+    height: 500px;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+
+#hi1 {
+    background-color: blueviolet;
+}
+
+#hi2 {
+    background-color:thistle;
+    flex-grow: 1;
+}
+#hi3 {
+    background-color: rgb(93, 255, 106);
+}
+#hi4 {
+    background-color: rgb(255, 44, 115);
+} */
+
+ul {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#main-box {
+    background-color: pink;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box {
+    background-color: beige;
+    background-image: url('Purple-lit_gaming_room_with_computer.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: 200px;
+    width: 200px;
+    
+}

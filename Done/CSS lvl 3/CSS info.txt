@@ -1,0 +1,24 @@
+element selector - element as name
+* - selects everything
+.class - selects given class(class='')
+#id - same as class
+
+idk - 
+px
+inch
+cm ,etc
+%
+em - times of font size of parent eg. 2rm = 10px*2
+rem - times of font size of root element(main html font size)
+vh - relative to 1% of viewport height(visible height of screen in browser)
+vw - relative to 1% of viewport width(visible width of screen in browser)
+
+
+css - 
+color
+text-align
+text-decoration - underline, overline etc
+font-family - font to be applied
+font-size - (--px)
+line-height - distance btw the lines in px, cm, inch etc
+text-transform - upper and lower case

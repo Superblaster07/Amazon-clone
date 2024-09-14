@@ -1,0 +1,57 @@
+di {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    border: 2px black outset;
+    /* transition-property: all ;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .8s; */
+    /* transition: all 1s ease-in-out .1s; */
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    /* animation-name: color;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    /* animation: color 1s ease-in 1s infinite alternate-reverse;  */
+
+}
+
+/* div:hover {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    transform: scale(2,2);
+    transform: translate(100px,200px);
+} */
+
+/* @keyframes color {
+    0%{
+        background-color: aquamarine;
+        left: 0px;
+    }
+    50%{
+        background-color: hotpink;
+    }
+    100%{
+        background-color: blue;
+        left: 500px;
+    }
+} */
+
+div {
+    height: 100px;
+    width: 100px;
+    border-bottom: 3px solid black;
+    border-radius: 50%;
+    animation: spin .8s steps(144) infinite normal ;
+}
+
+@keyframes spin{
+    from{rotate: z 0deg;}
+    to{rotate: z 360deg;}
+}
